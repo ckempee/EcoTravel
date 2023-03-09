@@ -7,6 +7,6 @@
 	@password NVARCHAR(32)
 
 AS
-	INSERT INTO [Client] ([nom],[prenom],[email], [pays], [telephone])
+	INSERT INTO [Client] ([nom],[prenom],[email], [pays], [telephone], [password])
 	OUTPUT [inserted].[idClient]
 	VALUES (@nom, @prenom, @email, @pays, @telephone, HASHBYTES('SHA2_512',@password))

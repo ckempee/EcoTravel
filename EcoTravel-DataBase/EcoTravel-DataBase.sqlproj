@@ -59,6 +59,7 @@
     <Folder Include="Tables" />
     <Folder Include="Views" />
     <Folder Include="StoredProcedure" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Client.sql" />
@@ -79,5 +80,11 @@
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="EcoTravel-DataBase.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EcoTravel-DataBase.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\ScriptPostDeployement.sql" />
   </ItemGroup>
 </Project>

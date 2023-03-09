@@ -1,0 +1,17 @@
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\EcoTravel-BLL.deps.json
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\EcoTravel-BLL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\ref\EcoTravel-BLL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\EcoTravel-BLL.pdb
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\EcoTravel-Common.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\EcoTravel-DAL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\EcoTravel-Common.pdb
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\bin\Debug\net5.0\EcoTravel-DAL.pdb
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.csproj.AssemblyReference.cache
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.AssemblyInfoInputs.cache
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.AssemblyInfo.cs
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.csproj.CoreCompileInputs.cache
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.csproj.CopyComplete
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\ref\EcoTravel-BLL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-BLL\obj\Debug\net5.0\EcoTravel-BLL.pdb

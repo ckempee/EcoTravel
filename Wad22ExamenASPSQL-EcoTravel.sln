@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EcoTravel-DataBase", "EcoTravel-DataBase\EcoTravel-DataBase.sqlproj", "{66EE8108-B8A2-4046-8593-2BB3C4A10669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTravel-DAL", "EcoTravel-DAL\EcoTravel-DAL.csproj", "{637BA317-7271-403D-BEA3-C4E7EEB36F62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoTravel-DAL", "EcoTravel-DAL\EcoTravel-DAL.csproj", "{637BA317-7271-403D-BEA3-C4E7EEB36F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTravel-BLL", "EcoTravel-BLL\EcoTravel-BLL.csproj", "{4D523B6F-290A-42D2-BC8C-3B4A724B5273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoTravel-BLL", "EcoTravel-BLL\EcoTravel-BLL.csproj", "{4D523B6F-290A-42D2-BC8C-3B4A724B5273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTravel-Common", "EcoTravel-Common\EcoTravel-Common.csproj", "{46036428-EC80-49B5-83EA-8D8CE6981AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoTravel-Common", "EcoTravel-Common\EcoTravel-Common.csproj", "{46036428-EC80-49B5-83EA-8D8CE6981AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTravel-ASPMVC", "EcoTravel-ASPMVC\EcoTravel-ASPMVC.csproj", "{818F7CBC-6FC2-435C-A946-1A77198BF7E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{46036428-EC80-49B5-83EA-8D8CE6981AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46036428-EC80-49B5-83EA-8D8CE6981AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46036428-EC80-49B5-83EA-8D8CE6981AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818F7CBC-6FC2-435C-A946-1A77198BF7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818F7CBC-6FC2-435C-A946-1A77198BF7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818F7CBC-6FC2-435C-A946-1A77198BF7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818F7CBC-6FC2-435C-A946-1A77198BF7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

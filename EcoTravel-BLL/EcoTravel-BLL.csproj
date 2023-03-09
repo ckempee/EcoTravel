@@ -5,4 +5,9 @@
     <RootNamespace>EcoTravel_BLL</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EcoTravel-Common\EcoTravel-Common.csproj" />
+    <ProjectReference Include="..\EcoTravel-DAL\EcoTravel-DAL.csproj" />
+  </ItemGroup>
+
 </Project>

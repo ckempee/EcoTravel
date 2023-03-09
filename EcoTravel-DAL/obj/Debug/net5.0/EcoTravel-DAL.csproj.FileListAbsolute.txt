@@ -1,0 +1,15 @@
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\bin\Debug\net5.0\EcoTravel-DAL.deps.json
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\bin\Debug\net5.0\EcoTravel-DAL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\bin\Debug\net5.0\ref\EcoTravel-DAL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\bin\Debug\net5.0\EcoTravel-DAL.pdb
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\bin\Debug\net5.0\EcoTravel-Common.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\bin\Debug\net5.0\EcoTravel-Common.pdb
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.csproj.AssemblyReference.cache
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.AssemblyInfoInputs.cache
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.AssemblyInfo.cs
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.csproj.CoreCompileInputs.cache
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.csproj.CopyComplete
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\ref\EcoTravel-DAL.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DAL\obj\Debug\net5.0\EcoTravel-DAL.pdb

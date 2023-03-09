@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EcoTravel_Common.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EcoTravel_DAL.Entities
 {
-    public class Client
+    public class Client:IClient
     {
         public int idClient { get; set; }
 

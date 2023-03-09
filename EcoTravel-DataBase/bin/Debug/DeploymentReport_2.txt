@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[BestLogement] (View)
+       [dbo].[ReservationPays] (View)
+       [dbo].[SP_ClientAdd] (Procedure)
+       [dbo].[SP_ClientCheck] (Procedure)
+       [dbo].[SP_Logement_Month] (Procedure)
+       [dbo].[SP_Reservations_Now] (Procedure)
+
+** Supporting actions

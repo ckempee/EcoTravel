@@ -5,9 +5,4 @@
     <RootNamespace>EcoTravel_Common</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>

@@ -1,0 +1,5 @@
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DataBase\bin\Debug\EcoTravel-DataBase.dacpac
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DataBase\bin\Debug\EcoTravel_DataBase.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DataBase\bin\Debug\EcoTravel_DataBase.pdb
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DataBase\obj\Debug\EcoTravel_DataBase.dll
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-DataBase\obj\Debug\EcoTravel_DataBase.pdb

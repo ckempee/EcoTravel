@@ -16,9 +16,12 @@ namespace EcoTravel_ASPMVC.Controllers
     public class ClientController : Controller
     {  
         private readonly IClientRepository<Client, int> _service;
-        public ClientController(IClientRepository<Client, int> service)
+        private readonly SessionManager _sessionManager;
+
+        public ClientController(IClientRepository<Client, int> service, SessionManager sessionManager)
         {
             _service = service;
+            _sessionManager = sessionManager;
     
         }
 
@@ -33,7 +36,13 @@ namespace EcoTravel_ASPMVC.Controllers
         // GET: ClientController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            ClientDetails model = _service.Get(id).ToDetails();
+            if (model is null)
+            {
+                TempData["Error"] = "Client inexistant...";
+                return RedirectToAction("Index");
+            }
+            return View(model);
         }
 
         // GET: ClientController/Create
@@ -45,17 +54,22 @@ namespace EcoTravel_ASPMVC.Controllers
         // POST: ClientController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(ClientCreateForm form)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                form.password = null;
+                form.repassword = null;
+                return View(form);
             }
-            catch
+            else
             {
-                return View();
+                int id = _service.Insert(form.ToBLL());
+                return RedirectToAction("Details", "Client", new { id = id });
             }
         }
+
+
 
         // GET: ClientController/Edit/5
         public ActionResult Edit(int id)
@@ -98,5 +112,23 @@ namespace EcoTravel_ASPMVC.Controllers
                 return View();
             }
         }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Login(LoginForm form)
+        {
+            if (!ModelState.IsValid) return View();
+            
+            return RedirectToAction("Index");
+
+        }
+
+        
     }
 }
+

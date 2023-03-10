@@ -1,4 +1,5 @@
 ﻿using EcoTravel_ASPMVC.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -20,6 +21,7 @@ namespace EcoTravel_ASPMVC.Controllers
 
         public IActionResult Index()
         {
+            HttpContext.Session.SetString("TestSession","Cookies Acceptés");
             return View();
         }
 

@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 
 namespace EcoTravel_Common.Repositories
 {
-   public interface IClientRepository<TEntity, TId> : IRepository<TEntity, TId> where TEntity : IClient
+    //utile: créer, modifier et avoir les détails de chaque clients
+    //Eventuellement, plus tard obtenir une liste de tous les clients pour chaque propriétaire
+    public interface IClientRepository<TEntity, TId> : IRepository<TEntity, TId> where TEntity : IClient
     {
         int? CheckPassword(string email, string password);
+
+        //Afficher une liste de tous les clients d'un propriétaire? 
     }
     
 }

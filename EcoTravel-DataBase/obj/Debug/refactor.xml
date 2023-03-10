@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="cb88dd29-2c1e-4ff0-9f6e-ef3d499f590e" ChangeDateTime="03/08/2023 13:10:53" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Client].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Client]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClient" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9efb0d81-1af7-418c-b45d-a1eca745704a" ChangeDateTime="03/08/2023 13:21:47" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Logement].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Logement]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdLogement" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd2f6f1a-888d-4f7d-b47b-091245c33aba" ChangeDateTime="03/08/2023 13:24:55" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Logement].[Rue]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Logement]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="rue" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9c5e8173-dfd5-4b8e-8f0e-89166951faa0" ChangeDateTime="03/08/2023 13:25:00" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Logement].[numeroRue]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Logement]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="numero" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f11c785d-750b-400c-b9cd-451844a51e65" ChangeDateTime="03/08/2023 13:35:38" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Logement].[animaux]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Logement]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="animauxAdmis" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cac09d5b-f6f8-4c31-aac4-51214d3ba12b" ChangeDateTime="03/08/2023 13:39:33" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Type].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Type]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="397a0fca-b7e8-4fb0-9e8e-14d4af62fe2d" ChangeDateTime="03/08/2023 13:42:51" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Indisponibilite].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Indisponibilite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdIndisponibilite" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8192e086-73f9-40d0-8059-a8964a5e0605" ChangeDateTime="03/08/2023 13:54:23" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Annulation].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Annulation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdAnnulation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b915ce2d-f819-4080-8f81-9e2900ee35f8" ChangeDateTime="03/08/2023 13:55:08" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Annulation].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Annulation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClient" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6b79e88-ad32-4a81-aa74-8150d255e001" ChangeDateTime="03/08/2023 13:59:26" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Reservation].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Reservation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdReservation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7fd67f6b-1439-45f3-ade8-cf00c4cf0cfa" ChangeDateTime="03/08/2023 14:00:41" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Indisponibilite].[IdIndisponibilite]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Indisponibilite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdReservation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="99cfcd29-68f0-4e78-8165-33d0b40d162d" ChangeDateTime="03/08/2023 14:01:15" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Indisponibilite].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Indisponibilite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdIndisponibilite" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="085871ba-3192-4cab-a8dd-8e20a98fc45b" ChangeDateTime="03/08/2023 14:04:50" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Indisponibilite].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Indisponibilite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdIndisponibilite" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e9bae8a2-503d-4eac-8787-2c062c957480" ChangeDateTime="03/08/2023 14:06:39" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Indisponibilite].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Indisponibilite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdIndisponibilite" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="103cf4b9-70f5-47d9-98bb-446c0c7c9bd8" ChangeDateTime="03/08/2023 14:08:27" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Indisponibilite].[datefin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Indisponibilite]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="dateFin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5c2ce4dc-3987-42f6-a979-2b0db59adfee" ChangeDateTime="03/08/2023 14:09:05" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Reservation].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Reservation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdReservation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b27e8271-d506-47f2-bb4f-5bdec53ac6a9" ChangeDateTime="03/08/2023 14:16:28" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Avis].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Avis]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdAvis" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="782b1618-9a20-4223-8c19-1e62b1abb438" ChangeDateTime="03/08/2023 15:17:57" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[photos].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[photos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPhoto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34148155-86c2-44c2-aacc-1872cd3e7cf5" ChangeDateTime="03/10/2023 07:28:54" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Proprietaire].[idClient]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Proprietaire]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="idProprietaire" />
+  </Operation>
+</Operations>

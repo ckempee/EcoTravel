@@ -1,0 +1,66 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Annulation] (Table)
+       [dbo].[Avis] (Table)
+       [dbo].[Client] (Table)
+       [dbo].[Indisponibilite] (Table)
+       [dbo].[Logement] (Table)
+       [dbo].[photos] (Table)
+       [dbo].[Proprietaire] (Table)
+       [dbo].[Reservation] (Table)
+       [dbo].[Type] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Logement] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Reservation] (Default Constraint)
+       [dbo].[FK_Client] (Foreign Key)
+       [dbo].[FK_Reservation] (Foreign Key)
+       [dbo].[FK_Avis_Logement] (Foreign Key)
+       [dbo].[FK_Avis_Reservation] (Foreign Key)
+       [dbo].[FK_Indisponibilite_Logement] (Foreign Key)
+       [dbo].[FK_Indisponibilite_Client] (Foreign Key)
+       [dbo].[FK_LogementType] (Foreign Key)
+       [dbo].[FK_Logement_Client] (Foreign Key)
+       [dbo].[FK_photos_ToTable] (Foreign Key)
+       [dbo].[FK_ProprietaireClient] (Foreign Key)
+       [dbo].[FK_Reservation_Logement] (Foreign Key)
+       [dbo].[FK_Reservation_Client] (Foreign Key)
+       [dbo].[CK_Avis_note] (Check Constraint)
+       [dbo].[CK_Client_email] (Check Constraint)
+       [dbo].[CK_Client_telephone] (Check Constraint)
+       [dbo].[CK_Client_nom] (Check Constraint)
+       [dbo].[CK_Client_prenom] (Check Constraint)
+       [dbo].[CK_Reservation_dateDebutDispo] (Check Constraint)
+       [dbo].[CK_Reservation_dateFinDispo] (Check Constraint)
+       [dbo].[CK_Logement_prixNuit] (Check Constraint)
+       [dbo].[CK_Logement_nbChambre] (Check Constraint)
+       [dbo].[CK_Logement_nbPiece] (Check Constraint)
+       [dbo].[CK_Logement_capacite] (Check Constraint)
+       [dbo].[CK_Logement_Description] (Check Constraint)
+       [dbo].[CK_Photo_photo] (Check Constraint)
+       [dbo].[CK_Reservation_DateDebut] (Check Constraint)
+       [dbo].[BestLogement] (View)
+       [dbo].[ReservationPays] (View)
+       [dbo].[SP_ClientAdd] (Procedure)
+       [dbo].[SP_ClientCheck] (Procedure)
+       [dbo].[SP_Logement_Month] (Procedure)
+       [dbo].[SP_Reservations_Now] (Procedure)
+
+** Supporting actions

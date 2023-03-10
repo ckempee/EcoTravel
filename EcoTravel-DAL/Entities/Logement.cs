@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EcoTravel_Common.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EcoTravel_DAL.Entities
 {
-    class Logement
+    public class Logement: ILogement
     {
         public int idLogement { get; set; }
         public string nom { get; set; }
@@ -17,6 +18,7 @@ namespace EcoTravel_DAL.Entities
         public string pays { get; set; }
 
         public decimal latitude { get; set; }
+        public decimal longitude { get; set; }
         public string descriptionCourte { get; set; }
         public string descriptionLongue { get; set; }
 
@@ -31,7 +33,7 @@ namespace EcoTravel_DAL.Entities
 
         public bool balcon { get; set; }
 
-        public bool AirCo {get;set;}
+        public bool airCo {get;set;}
 
         public bool wifi { get; set; }
 
@@ -46,7 +48,7 @@ namespace EcoTravel_DAL.Entities
 
         public int idType { get; set; }
 
-        public int idClient { get; set; }
+        public int idProprietaire { get; set; }
 
         public DateTime dateCreation { get; set; }
 

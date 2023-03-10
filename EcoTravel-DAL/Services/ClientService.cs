@@ -80,12 +80,12 @@ namespace EcoTravel_DAL.Services
                     command.Parameters.AddWithValue("nom", entity.nom);
                     command.Parameters.AddWithValue("prenom", entity.prenom);
                     command.Parameters.AddWithValue("email", entity.email);
-                    command.Parameters.AddWithValue("email", entity.pays);
+                    command.Parameters.AddWithValue("pays", entity.pays);
                     command.Parameters.AddWithValue("telephone", entity.telephone);
                     command.Parameters.AddWithValue("password", entity.password);
                   
                     connection.Open();
-                    return (int)command.ExecuteScalar();
+                    return (int)command.ExecuteScalar();        
                 }
             }
         }

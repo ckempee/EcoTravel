@@ -162,3 +162,6 @@ C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-ASPMVC\
 C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-ASPMVC\obj\Debug\net5.0\EcoTravel-ASPMVC.pdb
 C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-ASPMVC\obj\Debug\net5.0\EcoTravel-ASPMVC.genruntimeconfig.cache
 C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-ASPMVC\obj\Debug\net5.0\Razor\Views\Client\Index.cshtml.g.cs
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-ASPMVC\obj\Debug\net5.0\Razor\Views\Client\Create.cshtml.g.cs
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-ASPMVC\obj\Debug\net5.0\Razor\Views\Client\Details.cshtml.g.cs
+C:\Users\c.kempinaire\source\repos\Wad22ExamenASPSQL-EcoTravel\EcoTravel-ASPMVC\obj\Debug\net5.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs

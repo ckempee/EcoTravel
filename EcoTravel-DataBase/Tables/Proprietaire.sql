@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Proprietaire]
 (
-	[idClient] INT IDENTITY NOT NULL, 
+	[idProprietaire] INT IDENTITY NOT NULL, 
 
-    CONSTRAINT [FK_ProprietaireClient] FOREIGN KEY ([idClient]) REFERENCES [Client]([idClient]),
+    CONSTRAINT [FK_ProprietaireClient] FOREIGN KEY ([idProprietaire]) REFERENCES [Client]([idClient]),
 
   
     

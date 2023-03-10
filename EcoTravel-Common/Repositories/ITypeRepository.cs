@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace EcoTravel_Common.Repositories
 {
-    public interface IProprietaire<TEntity, TId> : IRepository<TEntity, TId> where TEntity : IProprietaire
+   public interface ITypeRepository<TEntity, TId> : IGetRepository<TEntity, TId> where TEntity : IType
     {
-        int? CheckPassword(string email, string password);
+        //on ne veut pas en rajouter, on veut juste les obtenir
+       
+
     }
-    
 }
